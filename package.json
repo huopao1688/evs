@@ -1,0 +1,32 @@
+{
+  "name": "evs",
+  "version": "0.1.0",
+  "description": "Fast and flexible ES6 event system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkov/evs.git"
+  },
+  "keywords": [
+    "es6",
+    "js",
+    "javascript",
+    "event",
+    "emitter",
+    "system",
+    "node"
+  ],
+  "author": "Daniel Kovacs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielkov/evs/issues"
+  },
+  "homepage": "https://github.com/danielkov/evs#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
