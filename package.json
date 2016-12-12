@@ -1,10 +1,10 @@
 {
   "name": "evs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Fast and flexible ES6 event system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha ./test/test.js"
   },
   "repository": {
     "type": "git",
