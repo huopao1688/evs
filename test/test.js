@@ -176,6 +176,15 @@ describe('.trigger()', () => {
 		evs.trigger('test', 10);
 		expect(n).to.be.eql(10);
 	})
+	it('should pass an empty object when used with only one argument', () => {
+		let evs = new Evs();
+		let t;
+		evs.all(data => {
+			t = data;
+		});
+		evs.trigger('test');
+		expect(t).to.be.eql({});
+	})
 })
 
 describe('internal functions', () => {
@@ -188,5 +197,13 @@ describe('internal functions', () => {
 		let evs = new Evs();
 		evs._subscribe('test', [() => {}]);
 		expect(evs._handlers.get('test')).to.be.instanceof(Array);
+	})
+
+	it('_subscribe should concatenate functions if listeners are already set.', () => {
+		let evs = new Evs();
+		evs._subscribe('test', [() => {}]);
+		expect(evs._handlers.get('test').length).to.be.eql(1);
+		evs._subscribe('test', [() => {}, () => {}]);
+		expect(evs._handlers.get('test').length).to.be.eql(3);
 	})
 })

@@ -4,7 +4,9 @@
   "description": "Fast and flexible ES6 event system.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/test.js"
+    "test": "./node_modules/.bin/mocha ./test/test.js",
+    "cover": "./node_modules/.bin/istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,9 @@
   "homepage": "https://github.com/danielkov/evs#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }
