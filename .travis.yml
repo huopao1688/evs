@@ -3,6 +3,7 @@ node_js:
   - "node"
   - "6"
   - "5"
+before_install:
+  - pip install --user codecov
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
-  - npm run coveralls
+  - codecov --file coverage/lcov.info --disable search
