@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/danielkov/evs/branch/master/graph/badge.svg)](https://codecov.io/gh/danielkov/evs)
+[![codecov](https://codecov.io/gh/danielkov/evs/branch/master/graph/badge.svg)](https://codecov.io/gh/danielkov/evs)[![Build Status](https://travis-ci.org/danielkov/evs.svg?branch=master)](https://travis-ci.org/danielkov/evs)
 
 
 # Read me
