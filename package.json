@@ -1,6 +1,6 @@
 {
   "name": "evs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast and flexible ES6 event system.",
   "main": "index.js",
   "scripts": {
