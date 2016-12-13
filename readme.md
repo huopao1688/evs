@@ -1,3 +1,6 @@
+[![codecov](https://codecov.io/gh/danielkov/evs/branch/master/graph/badge.svg)](https://codecov.io/gh/danielkov/evs)
+
+
 # Read me
 
 This is an ES6 Event Emitter or Event system, that is fast and flexible and makes use of awesome next generation JavaScript features.
@@ -96,7 +99,7 @@ To run test, install dependencies with:
 npm i
 ```
 
-Afterwards run 
+Afterwards run
 
 ```
 npm test
