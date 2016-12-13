@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/danielkov/evs/branch/master/graph/badge.svg)](https://codecov.io/gh/danielkov/evs)[![Build Status](https://travis-ci.org/danielkov/evs.svg?branch=master)](https://travis-ci.org/danielkov/evs)
+[![codecov](https://codecov.io/gh/danielkov/evs/branch/master/graph/badge.svg)](https://codecov.io/gh/danielkov/evs) [![Build Status](https://travis-ci.org/danielkov/evs.svg?branch=master)](https://travis-ci.org/danielkov/evs) [![dependencies](https://david-dm.org/danielkov/evs.svg)](https://david-dm.org/danielkov/evs) [![devDependencies Status](https://david-dm.org/danielkov/evs/dev-status.svg)](https://david-dm.org/danielkov/evs?type=dev) [![npm version](https://badge.fury.io/js/evs.svg)](https://badge.fury.io/js/evs) 
 
 
 # Read me
