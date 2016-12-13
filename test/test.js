@@ -110,7 +110,7 @@ describe('.once()', () => {
 describe('.off()', () => {
 	it('should return this', () => {
 		let evs = new Evs();
-		expect(evs.off()).to.be.instanceof(Evs);
+		expect(evs.off('test')).to.be.instanceof(Evs);
 	});
 	it('should remove all listeners with name', () => {
 		let evs = new Evs();
